@@ -16,15 +16,20 @@ Instead please donate to [charity: water](http://charitywater.org/).
 https://s.autoimg.cn/fe/mass/zepto-1.2.2.min.js
 
 代码貌似是基于 `1.1.7` (有可能是基于 `1.1.3`, 不过我们也可以直接用 `1.1.7` ), 除了如下核心模块外
+
 * zepto
 * event
 * ajax
 * form
 * ie
-还打包了如下模块
+
+还打包了如下可选模块
+
 * fx
 * data
+
 另外，还自己扩展了 Cookie 方法
+
 * $.setCookie
 * $.getCookie
 
