@@ -11,6 +11,29 @@ Zepto.js is licensed under the terms of the MIT License.
 Want to give us money or a tip? Don't.
 Instead please donate to [charity: water](http://charitywater.org/).
 
+## 定制
+
+https://s.autoimg.cn/fe/mass/zepto-1.2.2.min.js
+
+代码貌似是基于 `1.1.7` (有可能是基于 `1.1.3`, 不过我们也可以直接用 `1.1.7` ), 除了如下核心模块外
+* zepto
+* event
+* ajax
+* form
+* ie
+还打包了如下模块
+* fx
+* data
+另外，还自己扩展了 Cookie 方法
+* $.setCookie
+* $.getCookie
+
+----
+
+关于 Zepto `1.2.0` 与 Zepto `1.1.7` 的区别, 可以参考 [Release Zepto.js v1.2.0](https://github.com/madrobby/zepto/releases/tag/v1.2.0), 基本是可以直接升级的, 除了如下注意事项
+1. `attr()` 方法只使用 `node.getAttribute()` , 不再降级使用 `node.xxx`
+2. `attr()` 针对不存在的属性, 返回 `undefined` , 而不再是 `null` .
+
 ## Building
 
 [![Build Status](https://secure.travis-ci.org/madrobby/zepto.svg?branch=master)](http://travis-ci.org/madrobby/zepto)
