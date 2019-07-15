@@ -15,6 +15,14 @@ Instead please donate to [charity: water](http://charitywater.org/).
 
 https://s.autoimg.cn/fe/mass/zepto-1.2.2.min.js
 
+构建命令
+
+```
+npm run dist:autohome
+```
+
+打包后的文件参见 `dist` 目录，当前版本为 `1.2.2`
+
 代码貌似是基于 `1.1.7` (有可能是基于 `1.1.3`, 不过我们也可以直接用 `1.1.7` ), 除了如下核心模块外
 
 * zepto

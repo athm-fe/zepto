@@ -1,4 +1,4 @@
-/* Zepto v1.2.0-2-g05eb8fb - zepto event ajax form ie fx data cookie - zeptojs.com/license */
+/* Zepto v1.2.2 - zepto event ajax form ie fx data cookie - zeptojs.com/license */
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
     define(function() { return factory(global) })
